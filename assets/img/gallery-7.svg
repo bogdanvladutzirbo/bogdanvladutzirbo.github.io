@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="800" height="600">
+  <defs>
+    <linearGradient id="g7bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#b6bfae"/>
+      <stop offset="100%" stop-color="#d6c8a6"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="800" height="600" fill="url(#g7bg)"/>
+  <rect y="330" width="800" height="270" fill="#77714f"/>
+
+  <!-- splitter frame -->
+  <rect x="90" y="330" width="620" height="34" rx="8" fill="#3a4a55"/>
+  <rect x="120" y="364" width="40" height="120" fill="#2e3b44"/>
+  <rect x="640" y="364" width="40" height="120" fill="#2e3b44"/>
+  <rect x="90" y="296" width="150" height="40" rx="8" fill="#4b5b66"/>
+
+  <!-- hydraulic ram -->
+  <rect x="150" y="240" width="110" height="70" rx="10" fill="#e0972f" stroke="#8a5c15" stroke-width="4"/>
+  <rect x="260" y="262" width="120" height="26" rx="8" fill="#7d8b93"/>
+
+  <!-- wedge -->
+  <path d="M470 226 L500 226 L500 300 L485 330 L470 300 Z" fill="#c0392b" stroke="#7d241a" stroke-width="4"/>
+
+  <!-- log being split -->
+  <g stroke="#5b3d24" stroke-width="4">
+    <path d="M380 262 h84 v-2 l14 34 -14 34 v-2 h-84 a34 34 0 0 1 0 -64 z" fill="#a97741"/>
+    <path d="M506 258 l14 -6 h72 a34 34 0 0 1 0 64 h-72 l-14 -6 z" fill="#8b5e34"/>
+  </g>
+  <circle cx="592" cy="292" r="18" fill="#c9944f" stroke="#6b4526" stroke-width="3"/>
+  <circle cx="592" cy="292" r="8" fill="none" stroke="#8b5e34" stroke-width="3"/>
+
+  <!-- split pieces on ground -->
+  <g stroke="#5b3d24" stroke-width="4" fill="#a97741">
+    <rect x="120" y="500" width="170" height="34" rx="17"/>
+    <rect x="300" y="500" width="150" height="34" rx="17" transform="rotate(-7 375 517)"/>
+    <rect x="470" y="504" width="190" height="34" rx="17"/>
+    <rect x="200" y="464" width="140" height="34" rx="17" transform="rotate(6 270 481)"/>
+  </g>
+  <g fill="#e0972f">
+    <circle cx="137" cy="517" r="11"/><circle cx="273" cy="517" r="11"/><circle cx="487" cy="521" r="11"/><circle cx="643" cy="521" r="11"/>
+  </g>
+
+  <!-- sawdust -->
+  <g fill="#d7c08c" opacity=".8">
+    <circle cx="430" cy="470" r="5"/><circle cx="455" cy="486" r="4"/><circle cx="405" cy="490" r="3.5"/>
+    <circle cx="470" cy="460" r="3"/><circle cx="500" cy="480" r="4.5"/>
+  </g>
+
+  <rect y="552" width="800" height="48" fill="#665f45"/>
+</svg>

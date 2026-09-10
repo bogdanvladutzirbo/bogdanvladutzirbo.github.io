@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 620" width="560" height="620">
+  <defs>
+    <linearGradient id="aSky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#8fa4b8"/>
+      <stop offset="100%" stop-color="#d7c9ae"/>
+    </linearGradient>
+    <pattern id="aLogs" width="80" height="80" patternUnits="userSpaceOnUse">
+      <rect width="80" height="80" fill="#5b3d24"/>
+      <circle cx="21" cy="21" r="18" fill="#8b5e34"/>
+      <circle cx="21" cy="21" r="12" fill="none" stroke="#ad7b45" stroke-width="2.2"/>
+      <circle cx="21" cy="21" r="6" fill="none" stroke="#d0a066" stroke-width="2.2"/>
+      <circle cx="61" cy="21" r="17" fill="#7b5230"/>
+      <circle cx="61" cy="21" r="10" fill="none" stroke="#a97741" stroke-width="2.2"/>
+      <circle cx="21" cy="61" r="17" fill="#79512f"/>
+      <circle cx="21" cy="61" r="10" fill="none" stroke="#a3703c" stroke-width="2.2"/>
+      <circle cx="61" cy="61" r="18" fill="#8b5e34"/>
+      <circle cx="61" cy="61" r="12" fill="none" stroke="#c9944f" stroke-width="2.2"/>
+      <circle cx="61" cy="61" r="5" fill="none" stroke="#e5b87e" stroke-width="2.2"/>
+    </pattern>
+    <clipPath id="aRound"><rect width="560" height="620" rx="22"/></clipPath>
+  </defs>
+
+  <g clip-path="url(#aRound)">
+    <rect width="560" height="620" fill="url(#aSky)"/>
+
+    <!-- tree line -->
+    <g fill="#3f5237" opacity=".9">
+      <path d="M-10 210l34-92 34 92zM60 216l28-78 28 78zM124 204l36-100 36 100zM204 214l30-86 30 86zM272 206l34-96 34 96zM348 216l28-80 28 80zM412 202l37-104 37 104zM494 214l32-90 32 90z"/>
+    </g>
+    <rect y="196" width="560" height="30" fill="#4f6142"/>
+
+    <!-- roof over the stack -->
+    <path d="M20 250 L280 196 L540 250 L540 268 L20 268 Z" fill="#3c2b20"/>
+    <rect x="34" y="262" width="16" height="300" fill="#33251b"/>
+    <rect x="510" y="262" width="16" height="300" fill="#33251b"/>
+
+    <!-- the stack -->
+    <rect x="50" y="268" width="460" height="292" fill="url(#aLogs)"/>
+    <rect x="50" y="268" width="460" height="292" fill="#2a1d15" opacity=".07"/>
+
+    <!-- pallet base -->
+    <rect x="40" y="556" width="480" height="18" rx="4" fill="#4a3524"/>
+    <rect x="40" y="578" width="480" height="12" rx="3" fill="#3a2a1c"/>
+
+    <!-- ground -->
+    <rect y="590" width="560" height="30" fill="#5b6b4a"/>
+  </g>
+</svg>

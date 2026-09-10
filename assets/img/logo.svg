@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" width="48" height="48" role="img" aria-label="Codru">
+  <rect width="48" height="48" rx="13" fill="#2a1d15"/>
+  <g transform="translate(24 25)">
+    <circle r="15" fill="#8b5e34"/>
+    <circle r="15" fill="none" stroke="#e0972f" stroke-width="1.4" opacity=".55"/>
+    <circle r="11.5" fill="none" stroke="#c9944f" stroke-width="1.6"/>
+    <circle r="8" fill="none" stroke="#e0972f" stroke-width="1.6"/>
+    <circle r="4.6" fill="none" stroke="#f0c07a" stroke-width="1.5"/>
+    <circle r="1.7" fill="#faf5ec"/>
+  </g>
+  <path d="M24 4c3.4 3 5.2 6.1 5.2 9.2 0 3-2.3 5.4-5.2 5.4s-5.2-2.4-5.2-5.4C18.8 10.1 20.6 7 24 4z" fill="#4f6142"/>
+</svg>

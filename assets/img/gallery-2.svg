@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="800" height="600">
+  <defs>
+    <linearGradient id="g2sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#7f95a8"/>
+      <stop offset="100%" stop-color="#d9c8a8"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="800" height="600" fill="url(#g2sky)"/>
+  <g fill="#3a4d33">
+    <path d="M-10 230l36-108 36 108zM70 236l28-92 28 92zM140 226l38-116 38 116zM230 234l30-96 30 96zM306 228l34-104 34 104zM390 236l28-94 28 94zM460 226l38-114 38 114zM548 234l30-98 30 98zM626 228l34-102 34 102zM710 236l30-96 30 96z"/>
+  </g>
+  <rect y="230" width="800" height="40" fill="#46583b"/>
+  <rect y="266" width="800" height="334" fill="#6e6a4c"/>
+
+  <!-- log pile -->
+  <g stroke="#4a3220" stroke-width="4">
+    <g fill="#7b5230">
+      <rect x="70" y="470" width="660" height="54" rx="27"/>
+      <rect x="110" y="414" width="580" height="54" rx="27"/>
+      <rect x="150" y="358" width="500" height="54" rx="27"/>
+      <rect x="210" y="302" width="380" height="54" rx="27"/>
+      <rect x="290" y="246" width="220" height="54" rx="27"/>
+    </g>
+  </g>
+  <g fill="#c9944f" stroke="#6b4526" stroke-width="3">
+    <circle cx="92" cy="497" r="20"/><circle cx="708" cy="497" r="20"/>
+    <circle cx="132" cy="441" r="20"/><circle cx="668" cy="441" r="20"/>
+    <circle cx="172" cy="385" r="20"/><circle cx="628" cy="385" r="20"/>
+    <circle cx="232" cy="329" r="20"/><circle cx="568" cy="329" r="20"/>
+    <circle cx="312" cy="273" r="20"/><circle cx="488" cy="273" r="20"/>
+  </g>
+  <g fill="none" stroke="#8b5e34" stroke-width="3">
+    <circle cx="92" cy="497" r="11"/><circle cx="708" cy="497" r="11"/>
+    <circle cx="132" cy="441" r="11"/><circle cx="668" cy="441" r="11"/>
+    <circle cx="172" cy="385" r="11"/><circle cx="628" cy="385" r="11"/>
+    <circle cx="232" cy="329" r="11"/><circle cx="568" cy="329" r="11"/>
+    <circle cx="312" cy="273" r="11"/><circle cx="488" cy="273" r="11"/>
+  </g>
+
+  <rect y="540" width="800" height="60" fill="#5c6743"/>
+</svg>
